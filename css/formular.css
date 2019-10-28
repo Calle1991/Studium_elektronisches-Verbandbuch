@@ -1,0 +1,47 @@
+.formular{
+    display:flex;   
+    flex-direction: column;
+    text-align: center;
+    gap: 10%;
+}
+
+.formular #dateValue{
+    width: 20%;
+}
+
+.formular #timeValue{
+    width: 20%;
+}
+
+
+.next{
+    height: 5%;
+}
+
+#anwensenheitErsthelfer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+#istAnwesend{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.materialauswahl{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+#feedbackButton{
+    color: white;
+    background-color: blue;
+    padding: 20px;
+}
