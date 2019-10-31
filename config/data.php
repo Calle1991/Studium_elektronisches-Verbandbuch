@@ -22,7 +22,7 @@
 
  
     // mehrere Empfänger
-    $empfaenger  = 'pascal.tobinski@gmx.de'; // beachte das Komma
+    $empfaenger  = $_SESSION['email']; // beachte das Komma
     
     // Betreff
     $betreff = 'Neuer Eintrag! - EVB';
@@ -34,7 +34,6 @@
       <title>Dokumentation von Erste-Hilfe-Leistungen</title>
     </head>
     <body>
-      <p>Hier sind die Geburtstage im August:</p>
       <table>
         <tr>
           <th>Dokumentation von Erste-Hilfe-Leistungen</th>

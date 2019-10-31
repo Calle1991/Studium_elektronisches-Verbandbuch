@@ -54,7 +54,7 @@
 
 
             <div class="button">
-                    <a href="index.php?page=hergang" class="buttontext" id="next1">Weiter</a>
+                    <a href="index.php?page=hergang" class="buttontext" id="next_hm">Weiter</a>
             </div>
 
 
