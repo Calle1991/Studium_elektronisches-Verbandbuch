@@ -8,36 +8,35 @@
 
         <div class="content">
 
-            <div class="formular">
+                <label for="inp" class="inp">
+                <input type="text" id="inp" id="guest_vornameNachname" placeholder="&nbsp;">
+                <span class="label">Vor- und Nachname</span>
+                 <span class="border"></span>
+                </label>
 
-                <div id="vorname">
-                    <p>Vorname:</p>
-                    <input type="text">
-                </div>
+                <label for="inp2" class="inp">
+                <input type="text" id="inp" id="guest_datum" placeholder="&nbsp;">
+                <span class="label">Datum</span>
+                 <span class="border"></span>
+                </label>
 
-                <div id="nachname">
-                        <p>Nachname:</p>
-                        <input type="text">
-                    </div>
+                <label for="inp3" class="inp">
+                <input type="text" id="inp" id= "guest_zeit" placeholder="&nbsp;">
+                <span class="label">Zeit</span>
+                 <span class="border"></span>
+                </label>
 
-                <div class="datumZeit">
-                    <p>Datum / Uhrzeit:</p>
-                    <input type="text"> <input type="text">
-                </div>
-
-
-                <div class="ort">
-                    <p>Ort:</p>
-                    <input type="text">
-                </div>
+                <label for="inp4" class="inp">
+                <input type="text" id="inp" id="guest_ort" placeholder="&nbsp;">
+                <span class="label">Ort</span>
+                 <span class="border"></span>
+                </label>
 
 
-            </div>
 
-            <div class="next">
 
-                <a href="index.php?page=hergang"><button id="next">Weiter</button></a>
-
+            <div class="button">
+                    <a href="index.php?page=hergang" class="buttontext" id="next1">Weiter</a>
             </div>
 
 

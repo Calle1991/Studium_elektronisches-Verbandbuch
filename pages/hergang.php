@@ -9,34 +9,30 @@
 
         <div class="content">
 
-            <div class="formular">
+        
 
-                <div id="hergang">
-                    <p>Hergang:</p>
-                    <input type="text" id="hergang">
-                </div>
+            <label for="inp" class="inp">
+                <input type="text" d="hergang" placeholder="&nbsp;">
+                <span class="label">Hergang</span>
+                 <span class="border"></span>
+                </label>
 
-                <div class="artundumfang">
-                    <p>Art und Umfang der Verletzung:</p>
-                    <input type="text" id="artundumfang">
-                </div>
+                <label for="inp2" class="inp">
+                <input type="text" id="artUmfang" placeholder="&nbsp;">
+                <span class="label">Art und Umfang der Verletzung</span>
+                 <span class="border"></span>
+                </label>
 
-                <div class="ort">
-                    <p>Name der Zeugen:</p>
-                    <input type="text" id="zeugen">
-                </div>
+                <label for="inp3" class="inp">
+                <input type="text" id="zeugen" placeholder="&nbsp;">
+                <span class="label">Name der Zeugen</span>
+                 <span class="border"></span>
+                </label>
 
 
+            <div class="button">
+                    <a href="index.php?page=ersthelfer" class="buttontext" id="next2">Weiter</a>
             </div>
-
-            <div class="next">
-
-                    <a href="index.php?page=ersthelfer"><button id="next2">Weiter</button></a>
-
-            </div>
-
-
-
 
         </div>
 

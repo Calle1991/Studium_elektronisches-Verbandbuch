@@ -10,52 +10,49 @@
 
         <div class="content">
 
-            <div class="formular">
-
                 <h2>War ein Erstehelfer anwesdend?</h2>
-
-                <div id="anwensenheitErsthelfer">
                 <form id="radiogroup">
-                    <input type="radio" name="anwensenheitErsthelfer" value="Ja"><span>Ja</span>
-                    <input type="radio" name="anwensenheitErsthelfer" value="Nein"><span>Nein</span>
+                    <input type="radio" id="radiobutton" name="anwensenheitErsthelfer" value="Ja"><span id="radiobuttontext">Ja</span>
+                    <input type="radio" id="radiobutton" name="anwensenheitErsthelfer" value="Nein"><span id="radiobuttontext">Nein</span>
                 </form>
                     
-                </div>
-
-                <div id="istAnwesend">
-
-                    <div class="artUmfang">
-                        <p>Art und Umfang der Verletzung:</p>
-                        <input type="text" id="eArtundWeise">
-                    </div>
-
-                    <div class="zeugen">
-                        <p>Name der Zeugen:</p>
-                        <input type="text" id="eZeugen">
-                    </div>
-
-                <form action="">
-                    <label>Ersthelfer: <br>
-                            <select id="ersthelferListe" name="top5" size="1">
-                              <option>Herr Mustermann</option>
-                              <option>Herr Mustermann</option>
-                              <option>Herr Mustermann</option>
-                              <option>Herr Mustermann</option>
-                              <option>Herr Mustermann</option>
-                            </select>
-                    </label>
-                </form>
-                </div>
+                <label for="inp2" class="inp">
+                <input type="text" id="inp" id="ersthelfer_artUmfang" placeholder="&nbsp;">
+                <span class="label">Vor- und Nachname</span>
+                 <span class="border"></span>
+                </label>
 
 
+                <label for="inp2" class="inp">
+                <input type="text" id="inp" id="ersthelfer_artUmfang" placeholder="&nbsp;">
+                <span class="label">Art und Weise der Versorgung</span>
+                 <span class="border"></span>
+                </label>
 
+                <label for="inp2" class="inp">
+                <input type="text" id="inp" id="ersthelfer_zeugen" placeholder="&nbsp;">
+                <span class="label">Datum</span>
+                 <span class="border"></span>
+                </label>
+        
 
-            </div>
+                <label for="inp2" class="inp">
+                <span class="label">Ersthelfer</span>
+                 <span class="border"></span>
+                </label>
+                    <form id="auswahlErsthelfer">
+                                <select id="ersthelferListe" name="top5" size="1">
+                                <option>Herr Mustermann</option>
+                                <option>Herr Mustermann</option>
+                                <option>Herr Mustermann</option>
+                                <option>Herr Mustermann</option>
+                                <option>Herr Mustermann</option>
+                                </select>
+                        </label>
+                    </form>
 
-            <div class="next">
-
-                    <a href="index.php?page=material"><button id="nexttest">Weiter</button></a>
-
+            <div class="button">
+                    <a href="index.php?page=material" class="buttontext" id="nextmaterial">Weiter</a>
             </div>
 
 

@@ -3,27 +3,27 @@
 //--------Hochschulmitglied-----------------
 //-----E-Mail---Datum/Uhrzeit---Ort-------//
 
-
-
-
 $("#next1").click(function () {
-    var email = $("#emailValue").val();
-    var datum = $("#dateValue").val();
-    var uhrzeit = $("#timeValue").val();
-    var ort = $("#ortValue").val();
-    $.post("./config/data.php", {"email": email});
-    $.post("./config/data.php", {"datum": datum});
-    $.post("./config/data.php", {"time": time});
-    $.post("./config/data.php", {"ort": ort});
+    var email = $("#hm_emailValue").val();
+    var datum = $("#hm_datumValue").val();
+    var uhrzeit = $("#hm_zeitValue").val();
+    var ort = $("#hm_ortValue").val();
+
+    
+    //LocalStorage
+    sessionStorage.setItem("email", email);
+    SessionStorage.setItem("datum", datum);
+    SessionStorage.setItem("uhrzeit", uhrzeit);
+    SessionStorage.setItem("ort", ort);
 
 
 });
 
+
+
+
 //--------Gast-----------------
 //-----E-Mail---Datum/Uhrzeit---Ort-------//
-
-
-
 
 $("#next1").click(function () {
     var email = $("#emailValue").val();
@@ -44,14 +44,10 @@ $("#next1").click(function () {
 //-----Hergang---Art und Umfang---Zeugen-------//
 
 $("#next2").click(function () {
-    var umfang = $("#emailValue").val();
+    var umfang = $("#umfangValue").val();
     var artundumfang = $("#dateValue").val();
     var zeugen = $("#timeValue").val();
    
-    $.post("./config/data.php", {"umfang": umfang});
-    $.post("./config/data.php", {"artundumfang": artundumfang});
-    $.post("./config/data.php", {"zeugen": zeugen});
-
 });
 
 
@@ -76,7 +72,20 @@ $("#nexttest").click(function(){
 
 
 $("#submit").click(function(){
-    $.post("./config/data.php", {"sendmail": "send"});
+
+    let session_email = sessionStorage.getItem("email");
+    let session_datum = sessionStorage.getItem("datum");
+    let session_zeit = sessionStorage.getItem("zeit");
+    let session_ort = sessionStorage.getItem("ort");
+    
+
+    $.post("./config/data.php", {
+        "email": session_email,
+        "datum": session_datum,
+        "zeit": session_zeit,
+        "ort": session_ort,
+        "sendmail": "send"
+    });
     console.log("gesendet!");
     alert("gesendet!");
  });

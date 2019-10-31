@@ -17,8 +17,9 @@
                 <p>Haben Sie Feedback?</p>
             </div>
 
-
-            <a href="index.php?page=mainmenu"><button id="submit">schließen</button></a>
+            <div class="button">
+                    <a href="index.php?page=mainmenu" class="buttontext" id="submit">Schließen</a>
+            </div>
 
 
         </div>

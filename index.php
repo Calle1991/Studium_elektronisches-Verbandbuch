@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/formular.css">
+    <link rel="stylesheet" href="css/decorator.css">
     
     <title>Document</title>
 </head>

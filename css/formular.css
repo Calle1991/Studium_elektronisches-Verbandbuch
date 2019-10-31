@@ -1,8 +1,99 @@
+
+
+/* Formular-Style */
+
+
+* {
+    box-sizing: border-box;
+  }
+  .inp {
+    position: relative;
+    margin: auto;
+    width: 60%;
+  }
+  .inp .label {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 16px;
+    color: #9098a9;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+  .inp .border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #07f;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: all 0.15s ease;
+  }
+  .inp input {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    padding: 0px 0;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all 0.15s ease;
+  }
+  .inp input:hover {
+    background: rgba(34,50,84,0.03);
+  }
+  .inp input:not(:placeholder-shown) + span {
+    color: #5a667f;
+    transform: translateY(-26px) scale(0.75);
+  }
+  .inp input:focus {
+    background: none;
+    outline: none;
+  }
+  .inp input:focus + span {
+    color: #07f;
+    transform: translateY(-26px) scale(0.75);
+  }
+  .inp input:focus + span + .border {
+    transform: scaleX(1);
+  }
+  
+  
+  
+  
+  /* Button */
+  
+  
+  .button{
+      display: flex;
+      width: 150px;
+      height: 50px;
+      background-color: #223254;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  .buttontext{
+      color: #c8ccd4;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 5px 5px 5px 5px;
+  }
+
+
 .formular{
     display:flex;   
     flex-direction: column;
     text-align: center;
-    gap: 10%;
 }
 
 .formular #dateValue{
@@ -18,20 +109,24 @@
     height: 5%;
 }
 
-#anwensenheitErsthelfer{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap:20px;
-    
+
+/*Erstehelferscreen */
+
+
+#radiobutton{
+    margin-right: 5px;
 }
 
-#istAnwesend{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
+#radiobuttontext{
+    margin-right: 15px;
 }
+
+#auswahlErsthelfer{
+    margin-bottom: 30px;
+}
+
+/* Materialauswahl*/
+
 
 .materialauswahl{
     display: flex;
@@ -40,8 +135,14 @@
     gap: 10%;
 }
 
+
+
+/* Absenden/Submit*/
+
 #feedbackButton{
     color: white;
     background-color: blue;
     padding: 20px;
 }
+
+
