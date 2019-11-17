@@ -1,11 +1,7 @@
-<body>
-    <div class="wrapper">
-        <header>
-            <img id="headerLogo" src="https://via.placeholder.com/375x80" alt="" >
-        </header>
+
 
          
-        <div class="content">
+        <div class="content" id="submitform">
               
             <h2>Vielen Dank!</h2>
             <div id="submitMessage">
@@ -23,21 +19,3 @@
 
 
         </div>
-
-        <div class="footer">
-            <div class="footerLeft">
-                <img src="https://via.placeholder.com/50" alt="">
-            </div>
-            <div class="progessBar">
-                    <img src="https://via.placeholder.com/150x50" alt="">
-            </div>
-            <div class="footerRight">
-                <img src="https://via.placeholder.com/50" alt="">
-            </div>
-        </div>
-
-
-
-
-    </div>
-</body>

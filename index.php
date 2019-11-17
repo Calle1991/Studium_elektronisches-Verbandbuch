@@ -1,6 +1,9 @@
-<?php session_start(); ?>
+<?php session_start(); 
+include('./config/data.php');
+include('./config/conf.php');
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -9,17 +12,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/formular.css">
     <link rel="stylesheet" href="css/decorator.css">
-    
-    <title>Document</title>
+
+
+    <title>Elektronisches Verbandbuch</title>
 </head>
 
+<div class="wrapper">
 
-
-<?php
-include('./config/data.php');
-include('./config/conf.php');
+    <?php
+include('./pages/header.php');
 include('./config/runtime.php');
+include('./pages/footer.php');
 ?>
+
+</div>
+
 
 <script src="js/jquery.js"></script>
 <script src="js/script.js"></script>

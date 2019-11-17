@@ -36,6 +36,12 @@
             case 'feedback':
                 include('./pages/feedback.php');
                 break;    
+            case 'telefonnummer':
+                include('./pages/telefonnummer.php');
+                break;
+            case 'hilfe':
+                include('./pages/hilfe.php');
+                break;  
             default:
                 include('./pages/mainmenu.php');
             break;
