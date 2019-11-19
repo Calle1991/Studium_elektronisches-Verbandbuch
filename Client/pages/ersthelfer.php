@@ -41,6 +41,6 @@
 
     
     <div class="button">
-        <a href="index.php?page=material" class="buttontext" id="next_ersthelfer">Weiter</a>
+        <a href="index.php?page=materialabfrage" class="buttontext" id="next_ersthelfer">Weiter</a>
     </div>
 </div>

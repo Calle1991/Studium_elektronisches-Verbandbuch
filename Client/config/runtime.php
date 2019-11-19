@@ -24,6 +24,9 @@
             case 'hergang':
                 include('./pages/hergang.php');
                 break;
+            case 'materialabfrage':
+                include('./pages/materialabfrage.php');
+                break;  
             case 'material':
                 include('./pages/material.php');
                 break;

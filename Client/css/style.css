@@ -232,6 +232,19 @@ header{
 
 /* Materialauswahl*/
 
+#materialabfrage{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+#materialabfrage > div{
+    margin: 20px;
+}
+
+
+/* Materialauswahl*/
+
 
 .materialauswahl{
     display: flex;

@@ -141,7 +141,7 @@ $("#next_hm").click(function () {
         console.log("Hochschulmitglied hat nicht alles angegeben");
     } else {
         //LocalStorage
-        sessionStorage.setItem("email", email.val());
+        sessionStorage.setItem("email", email.val() + "@ostfalia.de");
         sessionStorage.setItem("datum", datum.val());
         sessionStorage.setItem("uhrzeit", uhrzeit.val());
         sessionStorage.setItem("ort", ort.val());
