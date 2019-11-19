@@ -1,7 +1,7 @@
 <div class="content" id="submitform">
 
 
-    <p>Haben Sie Material aus dem Erste-Hilfe-Kasten benutzt?</p>
+    <h2 style="text-align: center;">Haben Sie Material aus dem <br>Erste-Hilfe-Kasten benutzt?</h2>
 
 
     <div id="materialabfrage">
