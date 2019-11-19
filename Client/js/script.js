@@ -281,6 +281,19 @@ formular_Ersthelfer.fadeIn(function () {
     $("#step4").css("background-color", "green");
 });
 
+
+//-----MATERIALabfrage.PHP--------//
+
+//Animation
+//Animation
+let materialabfrageform = $("#materialabfrageform");
+materialabfrageform.css("display", "none");
+materialabfrageform.fadeIn(function () {
+    $("#step5").css("background-color", "green");
+});
+
+
+
 //-----MATERIAL.PHP--------//
 let materialauswahl1 = $("#materialauswahl1");
 let materialauswahl2 = $("#materialauswahl2");
@@ -293,7 +306,6 @@ let modalmaterial4 = $("#modalmaterial4");
 
 materialauswahl1.click(function () {
     modalhintergrund.fadeIn("100");
-    //modalhintergrund.css("display", "block");
     modalmaterial1.css("display", "block");
 });
 
@@ -318,7 +330,7 @@ materialauswahl4.click(function () {
 let materialauswahl = $("#materialauswahl");
 materialauswahl.css("display", "none");
 materialauswahl.fadeIn(function () {
-    $("#step5").css("background-color", "green");
+    $("#step6").css("background-color", "green");
 });
 
 

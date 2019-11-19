@@ -8,6 +8,7 @@
         <div class="progressStep" id="step3"></div>
         <div class="progressStep" id="step4"></div>
         <div class="progressStep" id="step5"></div>
+        <div class="progressStep" id="step6"></div>
     </div>
     <div class="footerRight">
         <a href="index.php?page=hilfe"><img src="https://via.placeholder.com/50" alt=""></a>
