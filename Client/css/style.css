@@ -264,6 +264,17 @@ header{
     height: 60%;
 }
 
+#modalmaterial2{
+    display: none;
+    z-index: 0;
+    background-color: #fefefe;
+    margin: 40% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 60%;
+}
+
 #materialauswahl{
     display: flex;
     justify-content: center;

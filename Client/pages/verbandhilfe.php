@@ -72,7 +72,6 @@
     </div>
 
 
-    <a href="index.php?page=mainmenu"><button>schließen</button></a>
 
 
 

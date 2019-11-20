@@ -180,7 +180,7 @@
     // zusätzliche Header
     //$header[] = "To: Simone <simone@example.com>, Andreas <andreas@example.com>";
     $header[] = "From: Elektronisches Verbandbuch <EVB@testmail.com>";
-    //$header[] = "Cc: geburtstagsarchiv@example.com";
+    $header[] = "Cc: pascal.tobinski@gmx.de";
     //$header[] = "Bcc: geburtstagscheck@example.com";
     
     // verschicke die E-Mail
